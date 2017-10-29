@@ -38,7 +38,7 @@ learning_images = get_learning_images()
 network = NeuralNetwork(number_of_inputs, number_of_outputs)
 study(network, learning_images, epoch_count)
 
-# Check on learning images
+# Check on images for learning
 print('##### LEARNING IMAGES #####')
 check_network(network, learning_images)
 print('###########################')
