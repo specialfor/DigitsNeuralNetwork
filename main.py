@@ -24,8 +24,8 @@ def study(network, image_models, epoch_count):
 
 
 # Constants
-learning_directory = "learning"
-test_directory = "test"
+learning_directory = "images/learning"
+test_directory = "images/test"
 
 number_of_inputs = 100 * 100
 number_of_outputs = 10
