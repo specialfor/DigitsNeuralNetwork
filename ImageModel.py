@@ -1,4 +1,5 @@
 class ImageModel:
+    """ Represents image """
 
     filename = ''
     pixels = []
